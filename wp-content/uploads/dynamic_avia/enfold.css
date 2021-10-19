@@ -9,8 +9,69 @@ h1, h2, h3, h4, h5, h6, #top .title_container .main-title, tr.pricing-row td, #t
     text-transform: capitalize!important;;
 }
 
+.banner-image {
+    height: 500px;
+}
+
+.recaptcha-text {
+    font-size: 11px;
+    margin-top: -22px;
+    font-style: italic;
+}
+
+.av_minimal_header #header_main .container, .av_minimal_header .main_menu ul:first-child > li a {
+    height: 83px;
+    line-height: 40px;
+}
+
+ul#menu-main-menu li {
+    display: inline-flex;
+    margin-right: 20px;
+    font-weight: bold;
+    padding-top: 6%;
+}
+
+.avia-testimonial_inner p {
+    font-size: 26px;
+    color: #888;
+}
+
+div#footer {
+    background-color: #f9f9f9;
+}
+
+section#media_image-2 {
+    width: 50%;
+    float: right;
+}
+
+nav.main_menu {
+    padding-top: 10px;
+}
+
+div#main {
+    margin-top: -50px;
+}
+
+span.logo {
+    display: none;
+}
+
+.av-frame {
+    background: #E5F5F2!important;
+}
+
+.avia-testimonial_inner p {
+    font-size: 28px;
+}
+
 #footer, .border-styled {
-    border-top: 1px solid #339999!important;
+    padding: 15px 0 0 0;
+    border-top: 1px solid #E5F5F2!important;
+}
+
+#top #wrap_all .header_color.av_header_transparency, #top #wrap_all .header_color.av_header_transparency .phone-info.with_nav span, #top #header.header_color.av_header_transparency .av-main-nav > li > a .avia-menu-text, #top #header.header_color.av_header_transparency .av-main-nav > li > a .avia-menu-subtext {
+    color: #000;
 }
 
 .bio-image img {
@@ -22,11 +83,47 @@ h1, h2, h3, h4, h5, h6, #top .title_container .main-title, tr.pricing-row td, #t
     border-radius: 35%!important;
     width: 455px!important;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+ 
+ul#menu-main-menu li {
+    margin-right: 12px;
+    text-align: center;
+} 
+
+.container {
+    text-align: center;
+}
+
+.banner-image {
+    height: 200px;
+}
+
+}
 .container {width:90%;} .container .av-content-small.units {width:73%; }
 			
 			  .responsive .boxed#top , .responsive.html_boxed.html_header_sticky #header, 
 			  .responsive.html_boxed.html_header_transparency #header{ width: 1310px; max-width:90%; }
 			  .responsive .container{ max-width: 1310px; }
+			
+
+			
+			html.html_av-framed-box{ padding:30px; }
+			html.html_av-framed-box{ padding:30px; }
+			html.html_av-framed-box .av-frame{ width: 30px; height: 30px; background:#ffffff;}
+			
+			
+			.html_header_top.html_header_sticky.html_av-framed-box #header_main,
+			.html_header_top.html_header_sticky.html_av-framed-box #header_meta{
+				margin:0 30px;
+			}
+			
+			html .avia-post-prev{left: 30px; }
+			html .avia-post-next{right:30px; }
+			
+			html.html_av-framed-box.html_av-overlay-side .av-burger-overlay-scroll{ right:30px; }
 			
 #top #wrap_all .av-burger-overlay .av-burger-overlay-scroll #av-burger-menu-ul li a{color:#ffffff;font-weight: lighter;letter-spacing: 2px;text-transform: uppercase;}
 #top #wrap_all #av-burger-menu-ul li{font-size:18px;}
